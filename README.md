@@ -45,6 +45,7 @@ MediAI is a real-time, AI-powered medical chatbot designed to assist users in sy
 ### 1. Clone the repository
 
 git clone https://github.com/alpARYA/MediAI.git
+
 cd MediAI
 
 ### 2.  Set up the environment
