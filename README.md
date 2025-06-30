@@ -52,9 +52,8 @@ cd MediAI
 Install the required dependencies:
 
 pip install -r requirements.txt
-Create a .env file and add your HuggingFace API key:
 
-env
+Create a .env file and add your HuggingFace API key:
 
 HF_TOKEN="your_huggingface_api_key"
 
@@ -62,6 +61,7 @@ HF_TOKEN="your_huggingface_api_key"
 Place your medical PDFs into the data/ folder and run:
 
 python create_memory_for_llm.py
+
 ### 4. Launch the Chatbot
 
 streamlit run medibot.py
